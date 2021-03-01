@@ -27,11 +27,13 @@ Client has two parameters:
   -number int
         specify the number of requests to send (default 5)
   -type string
-        specify type of request to send:
+        specify the type of request to send:
         close                   - send and close
         read                    - send and read
-        readandclose    - send, read and close
+        readandclose            - send, read and close
         nothing                 - send
+        readbyte                - send and read one byte
+        readbyteandclose        - send, read one byte and close
          (default "readandclose")
 ```
 
