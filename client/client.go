@@ -21,8 +21,8 @@ close				- send and close
 read				- send and read
 readandclose		- send, read and close
 nothing 			- send
-readbyte 			- send and read one byte
-readbyteandclose	- send, read  one byte and close
+readonebyte 			- send and read one byte
+readonebyteandclose	- send, read  one byte and close
 `)
 	n := flag.Int("number", 5, `specify the number of requests to send`)
 	flag.Parse()
