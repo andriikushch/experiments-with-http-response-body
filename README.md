@@ -32,8 +32,8 @@ Client has two parameters:
         read                    - send and read
         readandclose            - send, read and close
         nothing                 - send
-        readbyte                - send and read one byte
-        readbyteandclose        - send, read one byte and close
+        readonebyte             - send and read one byte
+        readonebyteandclose     - send, read one byte and close
          (default "readandclose")
 ```
 
